@@ -1,0 +1,97 @@
+body{
+    background: rgb(106, 16, 148);
+    font-family: 'Nunito SemiBold';
+}
+
+#main h1{
+    display: flex;
+    color: rgb(250, 250, 250);
+    text-align: center;
+    font-style: italic;
+    justify-content: center;
+}
+
+#main{
+    margin-left: 200px;
+    color: white;;
+    padding: 0px;
+    box-sizing: border-box;
+    width: 60%;
+    height: 100%;
+}
+
+#book-list{
+    padding: 0;
+    color: white;
+}
+
+#book-list li{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 12px;
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid #ffffff;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.3);
+    cursor: pointer;
+    color: white;
+}
+
+#add-book {
+    border: 1px solid #ffffff;
+}
+form{
+    color: white;
+    background: rgb(120, 23, 150);
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 400px;
+}
+
+form .field{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+form label{
+    text-align: right;
+    padding: 6px;
+}
+
+form input, form select{
+    margin: 4px 0;
+    padding: 6px;
+    box-sizing: border-box;
+}
+
+form button{
+    color: #fff;
+    font-size: 2em;
+    background: #7617f1;
+    border: 0;
+    padding: 0 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+#book-details{
+    position:relative;
+    top: 0;
+    display: flex;
+    align-items: center;
+    right: 0;
+    width: 40%;
+    height: 100%;
+    background: #142957;
+    padding: 30px;
+    box-shadow: -2px -3px 5px rgba(0,0,0,0.3);
+    box-sizing: border-box;
+    color: #fff;
+}
